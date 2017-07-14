@@ -1,0 +1,23 @@
+[gd_resource type="GDNativeScript" load_steps=2 format=2]
+
+[sub_resource type="GDNativeLibrary" id=1]
+
+platform/unix = ""
+platform/x11 = "res://arvr_example_driver.so"
+platform/server = ""
+platform/android = ""
+platform/blackberry = ""
+platform/haiku = ""
+platform/mac = "res://arvr_example_driver.dylib"
+platform/ios = ""
+platform/osx = "res://arvr_example_driver.dylib"
+platform/html5 = ""
+platform/windows = "res://arvr_example_driver.dll"
+platform/uwp = ""
+
+[resource]
+
+resource_name = "ARVRExampleDriver"
+library = SubResource( 1 )
+script_name = "ARVRExampleDriver"
+
